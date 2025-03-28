@@ -1,0 +1,77 @@
+2025-03-24 17:19:25 [[32minfo[39m]: probando logger
+2025-03-24 17:20:16 [[32minfo[39m]: probando logger
+2025-03-24 17:21:05 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:22:51 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:22:51 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:24:33 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:24:33 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:24:49 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:24:49 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:25:15 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:25:15 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:25:35 [[31merror[39m]: Mongo DB Conectado
+2025-03-24 17:25:35 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:25:51 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:25:51 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:28:43 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:28:43 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:30:13 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:30:13 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:30:24 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:30:24 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:32:16 [[31merror[39m]: El usuario ya existe con ese email
+2025-03-24 17:32:40 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:32:41 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:33:31 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:33:31 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:33:37 [[31merror[39m]: {"statusCode":403,"files":["Error: El usuario ya existe con ese email","    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backend-3/src/modules/auth/auth.service.js:9:24)","    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backend-3/src/modules/auth/auth.controller.js:7:23)"],"message":"El usuario ya existe con ese email","path":"/api/auth/register","method":"POST"}
+2025-03-24 17:38:52 [[31merror[39m]: {"statusCode":403,"files":["Error: El usuario ya existe con ese email","    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backend-3/src/modules/auth/auth.service.js:9:24)","    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backend-3/src/modules/auth/auth.controller.js:7:23)"],"message":"El usuario ya existe con ese email","path":"/api/auth/register","method":"POST"}
+2025-03-24 17:39:06 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:39:06 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:39:33 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:39:33 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:39:36 [[31merror[39m]: {"statusCode":403,"files":["Error: El usuario ya existe con ese email","    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backend-3/src/modules/auth/auth.service.js:9:24)","    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backend-3/src/modules/auth/auth.controller.js:7:23)"],"message":"El usuario ya existe con ese email","path":"/api/auth/register","method":"POST"}
+2025-03-24 17:39:36 [[31merror[39m]: status:403 [POST] /api/auth/register - msg:El usuario ya existe con ese email
+2025-03-24 17:40:19 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:40:19 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:41:08 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:41:08 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:43:01 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:43:01 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:44:06 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:44:06 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:44:41 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:44:41 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 17:46:38 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 17:46:38 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 19:02:05 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 19:02:05 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 19:02:09 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 19:02:09 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 19:05:37 [[34mdebug[39m]: Login service
+2025-03-24 19:05:44 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 19:05:44 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 19:05:47 [[34mdebug[39m]: Login service
+2025-03-24 19:05:49 [[31merror[39m]: status:500 [POST] /api/auth/login - msg:secretOrPrivateKey must have a value
+2025-03-24 19:06:35 [[34mdebug[39m]: Login service
+2025-03-24 19:06:35 [[31merror[39m]: status:500 [POST] /api/auth/login - msg:secretOrPrivateKey must have a value
+2025-03-24 19:06:42 [[34mdebug[39m]: Login service
+2025-03-24 19:06:42 [[31merror[39m]: status:500 [POST] /api/auth/login - msg:secretOrPrivateKey must have a value
+2025-03-24 19:07:51 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 19:07:51 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 19:08:08 [[34mdebug[39m]: Login service
+2025-03-24 19:08:08 [[31merror[39m]: status:500 [POST] /api/auth/login - msg:secretOrPrivateKey must have a value
+2025-03-24 19:08:25 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 19:08:25 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 19:08:29 [[34mdebug[39m]: Login service
+2025-03-24 19:08:29 [[31merror[39m]: status:500 [POST] /api/auth/login - msg:secretOrPrivateKey must have a value
+2025-03-24 19:15:55 [[34mdebug[39m]: Login service
+2025-03-24 19:15:55 [[31merror[39m]: status:500 [POST] /api/auth/login - msg:secretOrPrivateKey must have a value
+2025-03-24 19:16:15 [[32minfo[39m]: Mongo DB Conectado
+2025-03-24 19:16:15 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-24 19:16:18 [[34mdebug[39m]: Login service
+2025-03-24 19:16:18 [[34mdebug[39m]: Token generado: 
+2025-03-25 19:31:06 [[32minfo[39m]: Mongo DB Conectado
+2025-03-25 19:31:07 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-25 19:31:10 [[32minfo[39m]: Mongo DB Conectado
+2025-03-25 19:31:10 [[32minfo[39m]: Servidor en el puerto 8080
