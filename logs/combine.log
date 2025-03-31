@@ -185,3 +185,18 @@
 2025-03-30 20:50:01 [[32minfo[39m]: Mongo DB Conectado
 2025-03-30 20:50:01 [[32minfo[39m]: Servidor en el puerto 8080
 2025-03-31 19:26:19 [[32minfo[39m]: Mongo DB Conectado
+2025-03-31 19:26:25 [[32minfo[39m]: Mongo DB Conectado
+2025-03-31 19:26:25 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-31 19:36:22 [[34mdebug[39m]: Login service
+2025-03-31 19:36:22 [[34mdebug[39m]: {
+  "statusCode": 401,
+  "files": [
+    "Error: El mail o password no válido",
+    "    at AuthService.login (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:24:67)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async login (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:16:24)"
+  ],
+  "message": "El mail o password no válido",
+  "path": "/api/auth/login",
+  "method": "POST"
+}
