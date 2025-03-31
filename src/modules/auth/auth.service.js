@@ -24,9 +24,9 @@ class AuthService {
       if(!findUser || !isValidPassword(findUser, password)) throw new UnauthorizedError("El mail o password no válido");
       
       const token = createToken(findUser);
-      logger.debug("Token generado: ", token);
+      logger.debug(`Token generado: ${token}`);
 
-      return token;
+      return {user: findUser, token};
       
   }
 }

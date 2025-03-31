@@ -75,3 +75,113 @@
 2025-03-25 19:31:07 [[32minfo[39m]: Servidor en el puerto 8080
 2025-03-25 19:31:10 [[32minfo[39m]: Mongo DB Conectado
 2025-03-25 19:31:10 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 18:55:49 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 18:55:49 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 18:58:58 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:01:07 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:01:07 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:01:17 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:01:17 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:01:58 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:01:58 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:01:59 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:02:18 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:02:18 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:02:20 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:04:59 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:04:59 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:05:03 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:08:15 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:08:15 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:09:29 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:09:29 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:09:39 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:09:39 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:10:02 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:20:22 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab49a38848337cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab49a38848337cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:22:27 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:22:27 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:25:54 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:25:54 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:26:00 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:26:00 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:26:17 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:26:17 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:26:24 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:26:24 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:35:41 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:35:41 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:38:04 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:38:04 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:39:19 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:39:19 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:42:22 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab49a38848337cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab49a38848337cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:45:07 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:45:07 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:45:10 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab49a38848337cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab49a38848337cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:45:21 [[34mdebug[39m]: Login service
+2025-03-28 19:45:33 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZTFkNzVmNWRhNjQzYWQ2YTBjNDc2MSIsImVtYWlsIjoibnVldm8udXN1YXJpbzRAZXhhbXBsZS5jb20iLCJpYXQiOjE3NDMyMDE5MzMsImV4cCI6MTc0MzIwMzczM30.UOcotFIT_eBBVPpYIiqnXML14Qdk4opWM7fcVUfujVc
+2025-03-28 19:46:41 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:46:41 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-28 19:48:56 [[32minfo[39m]: Mongo DB Conectado
+2025-03-28 19:48:56 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 18:04:58 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 18:05:02 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 18:05:02 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 18:05:21 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 18:05:21 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 18:12:51 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 18:12:51 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 18:14:27 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 18:14:27 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 18:15:34 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 18:15:34 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 18:15:46 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 18:15:46 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 18:17:17 [[34mdebug[39m]: Login service
+2025-03-30 18:17:17 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDc0NjE4NmNmOWM1YTcwYTM2Nzc1OSIsImVtYWlsIjoiQ2FybG90YV9OYXphcmlvSnVyYWRvQGhvdG1haWwuY29tIiwiaWF0IjoxNzQzMzY5NDM3LCJleHAiOjE3NDMzNzEyMzd9.MFD94N5Zi1CDNS4fKjXYcMkXAoLQ_6Pan_MlbOiGmHU
+2025-03-30 19:55:42 [[34mdebug[39m]: Login service
+2025-03-30 19:55:42 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDc0NjE4NmNmOWM1YTcwYTM2Nzc1OSIsImVtYWlsIjoiQ2FybG90YV9OYXphcmlvSnVyYWRvQGhvdG1haWwuY29tIiwiaWF0IjoxNzQzMzc1MzQyLCJleHAiOjE3NDMzNzcxNDJ9.oikmNPEUgfTrBMCywa14JgIbcbRr-3qPY1r-HvlZxJg
+2025-03-30 19:56:31 [[34mdebug[39m]: Login service
+2025-03-30 19:56:31 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDc0NjE4NmNmOWM1YTcwYTM2Nzc1OSIsImVtYWlsIjoiQ2FybG90YV9OYXphcmlvSnVyYWRvQGhvdG1haWwuY29tIiwiaWF0IjoxNzQzMzc1MzkxLCJleHAiOjE3NDMzNzcxOTF9.hrxu3RfUKkr-y8OX1yIE47McPQhtMe0zrMO2W9ktSoM
+2025-03-30 19:57:10 [[34mdebug[39m]: Login service
+2025-03-30 19:57:11 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDc0NjE4NmNmOWM1YTcwYTM2Nzc1OSIsImVtYWlsIjoiQ2FybG90YV9OYXphcmlvSnVyYWRvQGhvdG1haWwuY29tIiwiaWF0IjoxNzQzMzc1NDMxLCJleHAiOjE3NDMzNzcyMzF9.YoypOTSqp1OSW3lTktkBbuPI0Lkv3OX1loDskwh-RWo
+2025-03-30 19:57:14 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: La mascota ya a sido adoptada",
+    "    at AdoptionService.createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.service.js:21:28)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.controller.js:26:24)"
+  ],
+  "message": "La mascota ya a sido adoptada",
+  "path": "/api/adoptions",
+  "method": "POST"
+}
+2025-03-30 20:26:48 [[31merror[39m]: status:500 [POST] /api/adoptions - msg:Cast to ObjectId failed for value "67e727b9db1b2a40c747d25" (type string) at path "_id" for model "pets"
+2025-03-30 20:27:24 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 20:27:29 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 20:27:29 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 20:29:15 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 20:29:15 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 20:38:36 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 20:38:36 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 20:39:54 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: Adopción no encontrada",
+    "    at AdoptionService.getAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.service.js:13:26)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async getAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.controller.js:17:24)"
+  ],
+  "message": "Adopción no encontrada",
+  "path": "/api/adoptions/67e727b9db1b2a40c747d25e",
+  "method": "GET"
+}
+2025-03-30 20:43:27 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 20:43:27 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 20:48:46 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 20:48:46 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-30 20:50:01 [[32minfo[39m]: Mongo DB Conectado
+2025-03-30 20:50:01 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-31 19:26:19 [[32minfo[39m]: Mongo DB Conectado

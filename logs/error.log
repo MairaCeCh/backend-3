@@ -10,3 +10,9 @@
 2025-03-24 19:08:08 [[31merror[39m]: status:500 [POST] /api/auth/login - msg:secretOrPrivateKey must have a value
 2025-03-24 19:08:29 [[31merror[39m]: status:500 [POST] /api/auth/login - msg:secretOrPrivateKey must have a value
 2025-03-24 19:15:55 [[31merror[39m]: status:500 [POST] /api/auth/login - msg:secretOrPrivateKey must have a value
+2025-03-28 18:58:58 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:01:59 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:02:20 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:05:03 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:10:02 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab493884833cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab493884833cefa5c3" (type string) at path "_id" for model "pets"
+2025-03-28 19:20:22 [[31merror[39m]: status:500 [GET] /api/pets/67d73ab49a38848337cefa5c3 - msg:Cast to ObjectId failed for value "67d73ab49a38848337cefa5c3" (type string) at path "_id" for model "pets"

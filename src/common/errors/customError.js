@@ -17,10 +17,18 @@ export const customError = async (err, req, res, next)=>{
     }
     
   
+ if(statusCode === 500){
+     
+  logger.error(`status:${statusCode} [${req.method}] ${req.originalUrl} - msg:${err.message}`);
   
-  logger.log ("error", `status:${statusCode} [${req.method}] ${req.originalUrl} - msg:${err.message}`);
+  console.log(JSON.stringify(error, null, 2));
+
+
   
-  console.log(error);
-  
-  res.status(statusCode).json({ statusCode, message });
+ return res.status(statusCode).json({ statusCode, message });
   }
+
+
+logger.debug(JSON.stringify(error, null, 2))   
+ return res.status(statusCode).json({ statusCode, message });
+ }

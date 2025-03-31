@@ -13,11 +13,11 @@ class AuthController {
   async login(req = request, res = response, next) {
     try {
       const { email, password } = req.body;
-      const token = await authService.login(email, password);
+      const response = await authService.login(email, password);
 
-      res.cookie("token", token, { maxAge: 3600000 });
+      res.cookie("token", response.token, { maxAge: 3600000 });
 
-      res.status(200).json({ message: "Logueado correcto", token });
+      res.status(200).json({ response});
     } catch (error) {
    next(error)
     }
