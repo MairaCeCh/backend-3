@@ -200,3 +200,614 @@
   "path": "/api/auth/login",
   "method": "POST"
 }
+2025-03-31 19:36:27 [[32minfo[39m]: Mongo DB Conectado
+2025-03-31 19:36:27 [[32minfo[39m]: Servidor en el puerto 8080
+2025-03-31 19:38:01 [[34mdebug[39m]: Login service
+2025-03-31 19:38:01 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZWIxOGEyZGMyNzQ5ODdiZmI2OWRlYSIsImVtYWlsIjoiTGlsaWE0NkB5YWhvby5jb20iLCJpYXQiOjE3NDM0NjA2ODEsImV4cCI6MTc0MzQ2MjQ4MX0.vsKeLPK7qu_xqnfzbDT33qYprrf6K9pOLD5PMxhnnto
+2025-04-04 20:25:37 [[32minfo[39m]: Mongo DB Conectado
+2025-04-04 20:25:37 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-04 20:31:58 [[32minfo[39m]: Mongo DB Conectado
+2025-04-04 20:31:58 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-04 20:42:50 [[32minfo[39m]: Mongo DB Conectado
+2025-04-04 20:42:50 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-04 20:43:32 [[32minfo[39m]: Mongo DB Conectado
+2025-04-04 20:43:32 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-07 18:57:21 [[32minfo[39m]: Mongo DB Conectado
+2025-04-07 18:57:21 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-07 18:57:25 [[32minfo[39m]: Mongo DB Conectado
+2025-04-07 18:57:25 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-07 19:01:30 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: pet not found",
+    "    at PetService.getOne (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/pets/pet.service.js:15:20)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async getPetById (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/pets/pet.controller.js:18:17)"
+  ],
+  "message": "pet not found",
+  "path": "/api/pets/67e9b54c8a23833836344e72",
+  "method": "GET"
+}
+2025-04-07 19:06:31 [[32minfo[39m]: Mongo DB Conectado
+2025-04-07 19:06:31 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-07 19:07:02 [[32minfo[39m]: Mongo DB Conectado
+2025-04-07 19:07:03 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-07 19:16:38 [[32minfo[39m]: Mongo DB Conectado
+2025-04-07 19:16:38 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-07 19:27:22 [[32minfo[39m]: Mongo DB Conectado
+2025-04-07 19:27:22 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-07 19:28:47 [[32minfo[39m]: Mongo DB Conectado
+2025-04-07 19:28:47 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-07 19:32:14 [[32minfo[39m]: Mongo DB Conectado
+2025-04-07 19:32:14 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-07 19:45:02 [[32minfo[39m]: Mongo DB Conectado
+2025-04-07 19:45:02 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:00:15 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:00:16 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:16:41 [[34mdebug[39m]: {
+  "statusCode": 400,
+  "files": [
+    "SyntaxError: Expected double-quoted property name in JSON at position 26",
+    "    at JSON.parse (<anonymous>)",
+    "    at parse (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\body-parser\\lib\\types\\json.js:92:19)",
+    "    at C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\body-parser\\lib\\read.js:128:18",
+    "    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)",
+    "    at invokeCallback (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:238:16)",
+    "    at done (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:227:7)",
+    "    at IncomingMessage.onEnd (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:287:7)",
+    "    at IncomingMessage.emit (node:events:519:28)",
+    "    at endReadableNT (node:internal/streams/readable:1696:12)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+  ],
+  "message": "Expected double-quoted property name in JSON at position 26",
+  "path": "/api/pets/67e727b8db1b2a40c747d256",
+  "method": "PUT"
+}
+2025-04-14 18:16:46 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:16:46 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:18:04 [[34mdebug[39m]: {
+  "statusCode": 400,
+  "files": [
+    "SyntaxError: Expected double-quoted property name in JSON at position 26",
+    "    at JSON.parse (<anonymous>)",
+    "    at parse (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\body-parser\\lib\\types\\json.js:92:19)",
+    "    at C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\body-parser\\lib\\read.js:128:18",
+    "    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)",
+    "    at invokeCallback (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:238:16)",
+    "    at done (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:227:7)",
+    "    at IncomingMessage.onEnd (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:287:7)",
+    "    at IncomingMessage.emit (node:events:519:28)",
+    "    at endReadableNT (node:internal/streams/readable:1696:12)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+  ],
+  "message": "Expected double-quoted property name in JSON at position 26",
+  "path": "/api/pets/67e727b8db1b2a40c747d256",
+  "method": "PUT"
+}
+2025-04-14 18:19:03 [[34mdebug[39m]: {
+  "statusCode": 400,
+  "files": [
+    "SyntaxError: Expected double-quoted property name in JSON at position 26",
+    "    at JSON.parse (<anonymous>)",
+    "    at parse (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\body-parser\\lib\\types\\json.js:92:19)",
+    "    at C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\body-parser\\lib\\read.js:128:18",
+    "    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)",
+    "    at invokeCallback (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:238:16)",
+    "    at done (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:227:7)",
+    "    at IncomingMessage.onEnd (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:287:7)",
+    "    at IncomingMessage.emit (node:events:519:28)",
+    "    at endReadableNT (node:internal/streams/readable:1696:12)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+  ],
+  "message": "Expected double-quoted property name in JSON at position 26",
+  "path": "/api/pets/67e727b8db1b2a40c747d256",
+  "method": "PUT"
+}
+2025-04-14 18:20:52 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:20:52 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:22:31 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:22:31 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:22:31 [[31merror[39m]: status:500 [PUT] /api/pets/67e727b8db1b2a40c747d256 - msg:Parameter "filter" to findOne() must be an object, got "67e727b8db1b2a40c747d256" (type string)
+2025-04-14 18:25:25 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:25:25 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:27:17 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:27:17 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:27:58 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:27:58 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:28:34 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:28:34 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:29:02 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:29:02 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:32:36 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:32:36 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:46:21 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:46:21 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:48:01 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:48:01 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:49:12 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:49:12 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:57:11 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 18:57:11 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 18:58:41 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: La mascota ya a sido adoptada",
+    "    at AdoptionService.createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.service.js:21:28)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.controller.js:26:24)"
+  ],
+  "message": "La mascota ya a sido adoptada",
+  "path": "/api/adoptions",
+  "method": "POST"
+}
+2025-04-14 18:58:43 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: La mascota ya a sido adoptada",
+    "    at AdoptionService.createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.service.js:21:28)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.controller.js:26:24)"
+  ],
+  "message": "La mascota ya a sido adoptada",
+  "path": "/api/adoptions",
+  "method": "POST"
+}
+2025-04-14 19:00:03 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: La mascota ya a sido adoptada",
+    "    at AdoptionService.createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.service.js:21:28)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.controller.js:26:24)"
+  ],
+  "message": "La mascota ya a sido adoptada",
+  "path": "/api/adoptions",
+  "method": "POST"
+}
+2025-04-14 19:01:28 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 19:01:28 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-14 19:01:34 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: La mascota ya a sido adoptada",
+    "    at AdoptionService.createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.service.js:21:28)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.controller.js:26:24)"
+  ],
+  "message": "La mascota ya a sido adoptada",
+  "path": "/api/adoptions",
+  "method": "POST"
+}
+2025-04-14 19:09:12 [[32minfo[39m]: Mongo DB Conectado
+2025-04-14 19:09:12 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-18 18:57:28 [[32minfo[39m]: Mongo DB Conectado
+2025-04-18 18:57:28 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-18 19:14:00 [[32minfo[39m]: Mongo DB Conectado
+2025-04-18 19:14:00 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-18 19:45:01 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: Pet not found",
+    "    at PetService.getOne (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/pets/pet.service.js:14:20)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async getPetById (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/pets/pet.controller.js:70:19)"
+  ],
+  "message": "Pet not found",
+  "path": "/api/pets/67f45460cdfdd2b037125845",
+  "method": "GET"
+}
+2025-04-18 19:45:39 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: Pet not found",
+    "    at PetService.getOne (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/pets/pet.service.js:14:20)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async getPetById (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/pets/pet.controller.js:70:19)"
+  ],
+  "message": "Pet not found",
+  "path": "/api/pets/67f45460cdfdd2b037125845",
+  "method": "GET"
+}
+2025-04-18 19:45:55 [[31merror[39m]: status:500 [POST] /api/pets - msg:pets validation failed: birthDate: Cast to date failed for value "string" (type string) at path "birthDate", owner: Cast to ObjectId failed for value "string" (type string) at path "owner" because of "BSONError"
+2025-04-18 19:46:07 [[32minfo[39m]: Mongo DB Conectado
+2025-04-18 19:46:07 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-18 19:51:13 [[34mdebug[39m]: {
+  "statusCode": 400,
+  "files": [
+    "SyntaxError: Unexpected non-whitespace character after JSON at position 173",
+    "    at JSON.parse (<anonymous>)",
+    "    at parse (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\body-parser\\lib\\types\\json.js:92:19)",
+    "    at C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\body-parser\\lib\\read.js:128:18",
+    "    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)",
+    "    at invokeCallback (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:238:16)",
+    "    at done (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:227:7)",
+    "    at IncomingMessage.onEnd (C:\\Users\\Mayra\\Documents\\programar\\backendMay-3\\node_modules\\raw-body\\index.js:287:7)",
+    "    at IncomingMessage.emit (node:events:519:28)",
+    "    at endReadableNT (node:internal/streams/readable:1696:12)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+  ],
+  "message": "Unexpected non-whitespace character after JSON at position 173",
+  "path": "/api/pets",
+  "method": "POST"
+}
+2025-04-18 19:54:52 [[32minfo[39m]: Mongo DB Conectado
+2025-04-18 19:54:52 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-18 19:57:01 [[32minfo[39m]: Mongo DB Conectado
+2025-04-18 19:57:01 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-18 19:58:52 [[32minfo[39m]: Mongo DB Conectado
+2025-04-18 19:58:53 [[32minfo[39m]: Mongo DB Conectado
+2025-04-18 19:58:53 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-18 19:58:56 [[32minfo[39m]: Mongo DB Conectado
+2025-04-18 19:58:56 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-22 18:40:58 [[32minfo[39m]: Mongo DB Conectado
+2025-04-22 18:40:59 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-23 18:23:02 [[32minfo[39m]: Mongo DB Conectado
+2025-04-23 18:23:02 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-23 18:31:51 [[32minfo[39m]: Mongo DB Conectado
+2025-04-23 18:31:51 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-23 20:00:38 [[32minfo[39m]: Mongo DB Conectado
+2025-04-23 20:00:38 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-23 20:00:43 [[32minfo[39m]: Mongo DB Conectado
+2025-04-23 20:00:43 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-23 20:02:15 [[32minfo[39m]: Mongo DB Conectado
+2025-04-23 20:02:15 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-23 20:02:43 [[32minfo[39m]: Mongo DB Conectado
+2025-04-23 20:02:44 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-23 20:13:00 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-23 20:18:12 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-23 20:25:51 [[32minfo[39m]: Mongo DB Conectado
+2025-04-23 20:25:51 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-23 20:27:53 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-23 20:29:43 [[32minfo[39m]: Mongo DB Conectado
+2025-04-23 20:29:43 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-23 20:39:43 [[32minfo[39m]: Mongo DB Conectado
+2025-04-23 20:39:43 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 19:14:58 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 19:15:01 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 19:15:01 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 19:18:58 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 19:18:58 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 19:34:23 [[34mdebug[39m]: Login service
+2025-04-25 19:34:24 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMwZGVmZjRiNzE1NzIzNTMwZWFiNSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIwNDY0LCJleHAiOjE3NDU2MjIyNjR9.bp_kGDesKr5wkRHnmXgcmbMLNHqfvbUcHLRMwZ33cg0
+2025-04-25 19:35:45 [[34mdebug[39m]: Login service
+2025-04-25 19:35:45 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMwZTQxZjRiNzE1NzIzNTMwZWFiOSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIwNTQ1LCJleHAiOjE3NDU2MjIzNDV9.1qNSOAGtQNy15fjxsk5q2naEggYANBqFXY7ThZ2ljfg
+2025-04-25 19:36:37 [[34mdebug[39m]: Login service
+2025-04-25 19:36:37 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMwZTc1ZjRiNzE1NzIzNTMwZWFiZCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIwNTk3LCJleHAiOjE3NDU2MjIzOTd9.Mgm-e_A6sSRGbG4IE6_4M6rSu41eLDyDONbiV3NUcvk
+2025-04-25 19:37:30 [[34mdebug[39m]: Login service
+2025-04-25 19:37:30 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMwZWE5ZjRiNzE1NzIzNTMwZWFjMSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIwNjUwLCJleHAiOjE3NDU2MjI0NTB9.6aK18YDT8THZVHLnPblCfRudVx5WVCAC6J5hvtIFe2E
+2025-04-25 19:38:38 [[34mdebug[39m]: Login service
+2025-04-25 19:38:38 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMwZWVlZjRiNzE1NzIzNTMwZWFjNSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIwNzE4LCJleHAiOjE3NDU2MjI1MTh9.CbbasA30L2n68IJAoAiHSjitjumwezq0EMZQ1iVvKAI
+2025-04-25 19:42:15 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-25 19:42:15 [[34mdebug[39m]: Login service
+2025-04-25 19:42:15 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMwZWVlZjRiNzE1NzIzNTMwZWFjNSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIwOTM1LCJleHAiOjE3NDU2MjI3MzV9.jUOE5_nZs8BM2EY1MsuImviV59zNP7nBDHsnIVFwgGc
+2025-04-25 19:43:05 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-25 19:43:05 [[34mdebug[39m]: Login service
+2025-04-25 19:43:05 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMwZWVlZjRiNzE1NzIzNTMwZWFjNSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIwOTg1LCJleHAiOjE3NDU2MjI3ODV9.ig0nNyYSahOJzGuvtmUcp_l6iuVHNQ2vzGaC9pXEwVA
+2025-04-25 19:44:54 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-25 19:44:54 [[34mdebug[39m]: Login service
+2025-04-25 19:44:54 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMwZWVlZjRiNzE1NzIzNTMwZWFjNSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIxMDk0LCJleHAiOjE3NDU2MjI4OTR9.XQhafZ_Di9A4LzPsTUKTd_Ie4G8UUHeDEMWyw1dRr4Q
+2025-04-25 19:45:39 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 19:45:39 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 19:45:44 [[34mdebug[39m]: Login service
+2025-04-25 19:45:44 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxMDk4MjkyNTg5YTYyYWE5YzBiMiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIxMTQ0LCJleHAiOjE3NDU2MjI5NDR9.eZtE4F3rfYOruNEyPOr2Q8cqf6FqRY3nO3XHVfb3kMs
+2025-04-25 19:52:01 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 19:52:01 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 19:53:38 [[34mdebug[39m]: Login service
+2025-04-25 19:53:38 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxMjcxMGJmYjhkMjdiZDZlMGRlZSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIxNjE4LCJleHAiOjE3NDU2MjM0MTh9.PYV49Eqi6MLkcJVHWzo6NNrR9ACGtvqn1hWJDunzR5s
+2025-04-25 19:57:01 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 19:57:01 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 19:57:17 [[34mdebug[39m]: Login service
+2025-04-25 19:57:17 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxMzRjOTJjMGMzMzU0ZjZiYTAxOCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIxODM3LCJleHAiOjE3NDU2MjM2Mzd9.KOE-6vSUIuMNTyZMyV-TUjdvULHkmFHaAkRe6kQFDDw
+2025-04-25 19:59:40 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 19:59:40 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 20:01:43 [[34mdebug[39m]: Login service
+2025-04-25 20:01:43 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxNDU3N2Q4ZWQyMTlhZjhlOGQ3MyIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIyMTAzLCJleHAiOjE3NDU2MjM5MDN9.aA4IlS-Blqh_-odbSzvfOiOJIOc9WQvrsRPGJO6rozo
+2025-04-25 20:04:40 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 20:04:40 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 20:04:46 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-25 20:04:46 [[34mdebug[39m]: Login service
+2025-04-25 20:04:46 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxNDU3N2Q4ZWQyMTlhZjhlOGQ3MyIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIyMjg2LCJleHAiOjE3NDU2MjQwODZ9.UcMKLGYczelqR0MfsdYIFKCvoNI8Q1_BY8KggAStNdo
+2025-04-25 20:05:35 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 20:05:35 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 20:05:43 [[34mdebug[39m]: Login service
+2025-04-25 20:05:43 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxNTQ3YjZlM2ZkYTQ3ZGMxNmEyYiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIyMzQzLCJleHAiOjE3NDU2MjQxNDN9.yy0jrLTlxH5BUNKMz72bP6SnzkwY0HiMBoqv8k6Op5s
+2025-04-25 20:07:52 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-25 20:07:52 [[34mdebug[39m]: Login service
+2025-04-25 20:07:53 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxNTQ3YjZlM2ZkYTQ3ZGMxNmEyYiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIyNDczLCJleHAiOjE3NDU2MjQyNzN9.stwe6KUBqSWJvYlUhrX2eLKD5Vxij0HrFnI7f-oAKGI
+2025-04-25 20:08:48 [[34mdebug[39m]: Login service
+2025-04-25 20:08:48 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxNjAwYjZlM2ZkYTQ3ZGMxNmEzMSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIyNTI4LCJleHAiOjE3NDU2MjQzMjh9.8sYYZKM2udjqFtsp7cl71ZLG4H3JZ7JNiUozb3uwuYY
+2025-04-25 20:12:20 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-25 20:12:20 [[34mdebug[39m]: Login service
+2025-04-25 20:12:20 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxNjAwYjZlM2ZkYTQ3ZGMxNmEzMSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIyNzQwLCJleHAiOjE3NDU2MjQ1NDB9.MVwJKZEB-xWa1Aj9G_qjA1j9iubmfrWuGAT6uiGW8Yw
+2025-04-25 20:12:54 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 20:12:54 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 20:13:01 [[34mdebug[39m]: Login service
+2025-04-25 20:13:02 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxNmZkZGRmNTY4Y2FkZDM3YmVmNiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIyNzgyLCJleHAiOjE3NDU2MjQ1ODJ9.Z-_R7stN430rPL_j5nNWMg2FJSK9zi9_EXyhJLrPRYs
+2025-04-25 20:13:41 [[34mdebug[39m]: Login service
+2025-04-25 20:13:42 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxNzI1ZGRmNTY4Y2FkZDM3YmVmYiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIyODIyLCJleHAiOjE3NDU2MjQ2MjJ9.Jp9M0Q9jK3YWgD_0lPw2hWzi4fSnL9Kiq6BtFsK1lRw
+2025-04-25 20:17:30 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 20:17:34 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 20:17:34 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 20:20:19 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 20:20:19 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 20:22:41 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-25 20:22:41 [[34mdebug[39m]: Login service
+2025-04-25 20:22:42 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxOGFmMWVlMGYyN2E5ZGE3NzBmNCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIzMzYyLCJleHAiOjE3NDU2MjUxNjJ9.iBtlDwF4IzjrYBNhH-4-gLI39hO3rh0rJz-Mxqw8OdQ
+2025-04-25 20:23:20 [[34mdebug[39m]: Login service
+2025-04-25 20:23:20 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxOTY4MDY4NTI2M2ZkNDYyNjc3OSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIzNDAwLCJleHAiOjE3NDU2MjUyMDB9.Y0Qs4-hWRU4YzOXcNSYQjCcyCgkNn2Zlrwh5exFnpTk
+2025-04-25 20:24:10 [[34mdebug[39m]: Login service
+2025-04-25 20:24:10 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxOTlhMDY4NTI2M2ZkNDYyNjc3ZCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIzNDUwLCJleHAiOjE3NDU2MjUyNTB9.9_Cwk6cmMenol0DlKTBed8XMgpis8ow1Fzm9U6bwX80
+2025-04-25 20:28:50 [[34mdebug[39m]: Login service
+2025-04-25 20:28:50 [[34mdebug[39m]: {
+  "statusCode": 401,
+  "files": [
+    "Error: El mail o password no válido",
+    "    at AuthService.login (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:24:67)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async login (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:16:24)"
+  ],
+  "message": "El mail o password no válido",
+  "path": "/api/auth/login",
+  "method": "POST"
+}
+2025-04-25 20:29:15 [[34mdebug[39m]: Login service
+2025-04-25 20:29:15 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxYWNhMDY4NTI2M2ZkNDYyNjc4MiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIzNzU1LCJleHAiOjE3NDU2MjU1NTV9.aJvlClkMkzhY3KL-Cgz-HfmMRIrKrrAoIFqckMv5wdo
+2025-04-25 20:31:44 [[34mdebug[39m]: Login service
+2025-04-25 20:31:45 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxYjYwMDY4NTI2M2ZkNDYyNjc4NiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIzOTA1LCJleHAiOjE3NDU2MjU3MDV9._WBZXleeAIJ7_PCksDTHrhceiilg9bMRv5YzXWRoqC4
+2025-04-25 20:32:42 [[32minfo[39m]: Mongo DB Conectado
+2025-04-25 20:32:42 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-25 20:32:49 [[34mdebug[39m]: Login service
+2025-04-25 20:32:49 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGMxYmExYjJhOWI5ZjQ1ZDE4M2NjMSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NjIzOTY5LCJleHAiOjE3NDU2MjU3Njl9.7RW7bjSA6wPaSKBULjgMy-FanBNQ-_nPmxaqJD8Ne64
+2025-04-26 17:16:40 [[32minfo[39m]: Mongo DB Conectado
+2025-04-26 17:16:40 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-26 17:16:51 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-26 17:16:51 [[34mdebug[39m]: Login service
+2025-04-26 17:16:58 [[32minfo[39m]: Mongo DB Conectado
+2025-04-26 17:16:58 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-26 17:17:35 [[34mdebug[39m]: Login service
+2025-04-26 17:17:35 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQzZjVlODQ0NmUyNzQxZWI0NzM0YyIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk4NjU1LCJleHAiOjE3NDU3MDA0NTV9.V6CGTRJ9rINGhc52vcHG26Y7BhjJyJz9DGNx9y1Ih50
+2025-04-26 17:22:38 [[34mdebug[39m]: Login service
+2025-04-26 17:22:38 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0MDhkODQ0NmUyNzQxZWI0NzM1MCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk4OTU4LCJleHAiOjE3NDU3MDA3NTh9.9a7Ev9TD0D1aqAgIhQib9c7WTTTem31xTz5j2hM0cSo
+2025-04-26 17:23:32 [[34mdebug[39m]: Login service
+2025-04-26 17:23:33 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0MGM0ODQ0NmUyNzQxZWI0NzM1NCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk5MDEzLCJleHAiOjE3NDU3MDA4MTN9.CC-lS55rP1k9oBRnACmARMsdHWE8Ox36Xus_hwUz5CA
+2025-04-26 17:25:55 [[34mdebug[39m]: Login service
+2025-04-26 17:25:55 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0MTUzODQ0NmUyNzQxZWI0NzM1OCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk5MTU1LCJleHAiOjE3NDU3MDA5NTV9.jtLLvpTI3j6S_sQ07nR5yaTR0iKS22M0YR4d30dYgIg
+2025-04-26 17:28:14 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-26 17:28:14 [[34mdebug[39m]: Login service
+2025-04-26 17:28:15 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0MTUzODQ0NmUyNzQxZWI0NzM1OCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk5Mjk1LCJleHAiOjE3NDU3MDEwOTV9.GKwJzHOX-cDOx_LUyOkHcfQR7McdeWSNeO9g9Gj_H18
+2025-04-26 17:28:57 [[34mdebug[39m]: Login service
+2025-04-26 17:28:57 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0MjA5ODQ0NmUyNzQxZWI0NzM1ZSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk5MzM3LCJleHAiOjE3NDU3MDExMzd9.vtxFaOPkle4_VWE9dzhXU6zhURX8_bbcvWWaz-FfUjo
+2025-04-26 17:31:55 [[34mdebug[39m]: Login service
+2025-04-26 17:31:56 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0MmJiODQ0NmUyNzQxZWI0NzM2MiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk5NTE2LCJleHAiOjE3NDU3MDEzMTZ9.7Pr5iGXlYc4dzcOE60nL9UWsrk1tNRwHWey0cBo2W2w
+2025-04-26 17:35:23 [[34mdebug[39m]: Login service
+2025-04-26 17:35:24 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0MzhiODQ0NmUyNzQxZWI0NzM2NiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk5NzI0LCJleHAiOjE3NDU3MDE1MjR9.xgp85u5a9FUl3U1oU4VmP_OF3AweD772MOP-tnG8VHQ
+2025-04-26 17:37:02 [[34mdebug[39m]: Login service
+2025-04-26 17:37:02 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0M2VlODQ0NmUyNzQxZWI0NzM2YSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk5ODIyLCJleHAiOjE3NDU3MDE2MjJ9.TdNn926k0oJCJ9CDlQMS5BQElQUqst_LpNP_pKczF44
+2025-04-26 17:38:25 [[34mdebug[39m]: Login service
+2025-04-26 17:38:25 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0NDQxODQ0NmUyNzQxZWI0NzM2ZSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk5OTA1LCJleHAiOjE3NDU3MDE3MDV9.-OC9cOUihSuVLFYZjqejz_yCCEap-AqYcr1JRtwjQ3g
+2025-04-26 17:39:38 [[34mdebug[39m]: Login service
+2025-04-26 17:39:38 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0NDg5ODQ0NmUyNzQxZWI0NzM3MiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1Njk5OTc4LCJleHAiOjE3NDU3MDE3Nzh9.aOGj9-7Fprq3gP3O2-UCkUDq91Atiy5VH53dRMAVHQc
+2025-04-26 17:40:46 [[34mdebug[39m]: Login service
+2025-04-26 17:40:46 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0NGNkODQ0NmUyNzQxZWI0NzM3NiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAwMDQ2LCJleHAiOjE3NDU3MDE4NDZ9.bDjjXO6n18H2eIz39ZKej2x4Xk1tr0b2-jkNUX7aP_k
+2025-04-26 17:42:10 [[34mdebug[39m]: Login service
+2025-04-26 17:42:10 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0NTIyODQ0NmUyNzQxZWI0NzM3YSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAwMTMwLCJleHAiOjE3NDU3MDE5MzB9.zZN3TH743KzMeBlfdTFViLICavBAKk3xgNIhkpHTqus
+2025-04-26 17:43:37 [[34mdebug[39m]: Login service
+2025-04-26 17:43:38 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0NTc5ODQ0NmUyNzQxZWI0NzM3ZSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAwMjE4LCJleHAiOjE3NDU3MDIwMTh9.hbAv8FLPemy2C2RPKYFO_3szc5iiZhOpTiLU7zKm-ew
+2025-04-26 17:46:32 [[34mdebug[39m]: Login service
+2025-04-26 17:46:32 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0NjI4ODQ0NmUyNzQxZWI0NzM4MiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAwMzkyLCJleHAiOjE3NDU3MDIxOTJ9.IPYvcXUxbETuA1MyIF70SQJyb0uPOZd-_1WOaqSriJc
+2025-04-26 17:48:36 [[34mdebug[39m]: Login service
+2025-04-26 17:48:37 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0NmE0ODQ0NmUyNzQxZWI0NzM4NiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAwNTE3LCJleHAiOjE3NDU3MDIzMTd9.TBnsPm3vrnHH4mUYkVeciG6sOx-LvmrDBCJkXpz2TTc
+2025-04-26 17:49:30 [[34mdebug[39m]: Login service
+2025-04-26 17:49:30 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0NmRhODQ0NmUyNzQxZWI0NzM4YSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAwNTcwLCJleHAiOjE3NDU3MDIzNzB9.NbXOf43S8rLi_5YAEE33IXvSprNhU5cdiz2PEDBVdt8
+2025-04-26 17:51:08 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-04-26 17:51:08 [[34mdebug[39m]: Login service
+2025-04-26 17:51:08 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0NmRhODQ0NmUyNzQxZWI0NzM4YSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAwNjY4LCJleHAiOjE3NDU3MDI0Njh9.f8vAiIUfY2h6EEO8EsB3LspUUfmrT9N46WGNhlNouxY
+2025-04-26 17:55:29 [[34mdebug[39m]: Login service
+2025-04-26 17:55:30 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0ODQxODQ0NmUyNzQxZWI0NzM5MCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAwOTMwLCJleHAiOjE3NDU3MDI3MzB9.5OvA-jDrMYAq-j45v3FWeRElqR9tDYDbJ8oHDaT4zkQ
+2025-04-26 18:00:30 [[34mdebug[39m]: Login service
+2025-04-26 18:00:30 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0OTZlODQ0NmUyNzQxZWI0NzM5NCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAxMjMwLCJleHAiOjE3NDU3MDMwMzB9.vkvLwSl8DrjUk4xTU9Vao5YtxXBmMMVLoJz8Ug_dF8g
+2025-04-26 18:03:30 [[34mdebug[39m]: Login service
+2025-04-26 18:03:31 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0YTIyODQ0NmUyNzQxZWI0NzM5OCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAxNDExLCJleHAiOjE3NDU3MDMyMTF9.TPUALtYWUIb9s32AJqypSXmlqM2KIh2xybVKc4v5sFY
+2025-04-26 18:04:18 [[34mdebug[39m]: Login service
+2025-04-26 18:04:18 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0YTUyODQ0NmUyNzQxZWI0NzM5YyIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAxNDU4LCJleHAiOjE3NDU3MDMyNTh9.LSwo1Dx5QFnOWOOffES5zrZqmcN7cQQriLcwiohicvo
+2025-04-26 18:06:55 [[32minfo[39m]: Mongo DB Conectado
+2025-04-26 18:06:55 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-26 18:07:36 [[34mdebug[39m]: Login service
+2025-04-26 18:07:36 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0YjE4OTBmYzA0ZjM1NjQwMzY1ZiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAxNjU2LCJleHAiOjE3NDU3MDM0NTZ9.gFQVygLglehI-NbE0bWxrhbHPbSrDWHmM12JKIVhjrU
+2025-04-26 18:13:37 [[34mdebug[39m]: Login service
+2025-04-26 18:13:37 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0YzgwOTBmYzA0ZjM1NjQwMzY2NCIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAyMDE3LCJleHAiOjE3NDU3MDM4MTd9.Hw-LPGHhD8oYT5QHljqlfCWPgc46gSYK5Fhpbc0wAq0
+2025-04-26 18:16:22 [[32minfo[39m]: Mongo DB Conectado
+2025-04-26 18:16:22 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-26 18:26:13 [[32minfo[39m]: Mongo DB Conectado
+2025-04-26 18:26:17 [[32minfo[39m]: Mongo DB Conectado
+2025-04-26 18:26:17 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-26 18:27:26 [[32minfo[39m]: Mongo DB Conectado
+2025-04-26 18:27:26 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-26 18:28:27 [[34mdebug[39m]: Login service
+2025-04-26 18:28:27 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ0ZmZhYWFmMDY0MmQ5YjlmMDkwNiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAyOTA3LCJleHAiOjE3NDU3MDQ3MDd9.T_mF4bQ9wQgC1Nr5Cn46Ncx-2zujaRGzvd586kj6PH4
+2025-04-26 18:32:24 [[34mdebug[39m]: Login service
+2025-04-26 18:32:24 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ1MGU4YWFmMDY0MmQ5YjlmMDkxMiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAzMTQ0LCJleHAiOjE3NDU3MDQ5NDR9.YPRW6Lh9x0WBaZSLzE8rcj75oHRRBahcCtQiNg2Bx9M
+2025-04-26 18:36:30 [[34mdebug[39m]: Login service
+2025-04-26 18:36:30 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ1MWRlYWFmMDY0MmQ5YjlmMDkxZSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAzMzkwLCJleHAiOjE3NDU3MDUxOTB9.EAeCa9qf-hexNaMNnLbfmIlJ8qpVRcpjuBcSeMg_w2U
+2025-04-26 18:37:41 [[34mdebug[39m]: Login service
+2025-04-26 18:37:41 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ1MjI1YWFmMDY0MmQ5YjlmMDkyYSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAzNDYxLCJleHAiOjE3NDU3MDUyNjF9.ks78ywgGmXXFQ2tLFpiM7EV2sCVIwQVmKgIU07x9a-o
+2025-04-26 18:40:26 [[32minfo[39m]: Mongo DB Conectado
+2025-04-26 18:40:26 [[32minfo[39m]: Servidor en el puerto 8080
+2025-04-26 18:41:43 [[34mdebug[39m]: Login service
+2025-04-26 18:41:43 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ1MzE3YTc1YjkwNDRmNTdiMzUzMyIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAzNzAzLCJleHAiOjE3NDU3MDU1MDN9.B3fDswiTtIzZwaAZbDQ3ff_Pzx8elzcIy2cHAlNelQs
+2025-04-26 18:46:23 [[34mdebug[39m]: Login service
+2025-04-26 18:46:23 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ1NDJmYTc1YjkwNDRmNTdiMzUzZiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzAzOTgzLCJleHAiOjE3NDU3MDU3ODN9.k6VBM5RQRtD1MTUWNuxdJF7s44oesMdgka0u7NzfD48
+2025-04-26 18:50:57 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: Mascota no encontrada",
+    "    at AdoptionService.createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.service.js:20:21)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async createAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.controller.js:26:24)"
+  ],
+  "message": "Mascota no encontrada",
+  "path": "/api/adoptions",
+  "method": "POST"
+}
+2025-04-26 18:50:58 [[34mdebug[39m]: Login service
+2025-04-26 18:50:58 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ1NTQxYTc1YjkwNDRmNTdiMzU0ZiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzA0MjU4LCJleHAiOjE3NDU3MDYwNTh9.9SRsomNSbtCy6YgHxBx8sjjqovrNAXwnYK5hlM46kuc
+2025-04-26 18:55:41 [[34mdebug[39m]: {
+  "statusCode": 404,
+  "files": [
+    "Error: Adopción no encontrada",
+    "    at AdoptionService.getAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.service.js:13:26)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async getAdoption (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/adoptions/adoption.controller.js:17:24)"
+  ],
+  "message": "Adopción no encontrada",
+  "path": "/api/adoptions/67c9e0291cc807987f1069dd",
+  "method": "GET"
+}
+2025-04-26 18:55:41 [[34mdebug[39m]: Login service
+2025-04-26 18:55:42 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MGQ1NjVkYTc1YjkwNDRmNTdiMzU1ZiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ1NzA0NTQyLCJleHAiOjE3NDU3MDYzNDJ9.0IAESrS1nN4bDDOuk5YWopaYG3R2CV4Xsood8QA7OpU
+2025-05-01 16:04:51 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:04:54 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:04:54 [[32minfo[39m]: Servidor en el puerto 8080

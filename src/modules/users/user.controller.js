@@ -3,9 +3,10 @@ import { generateUsersMocks } from "../../mock/user.mock.js";
 import { userService } from "./user.service.js";
 
 class UserController {
-  async getAll(req = request, res = response) {
+  async getAll(req = request, res = response, next) {
     try {
-      res.send("Hola");
+     const users = await userService.getAll();
+      res.status(200).json(users);
     } catch (error) {
       console.log(error);
       res.status(500).json({ message: "Internal Server Error" });

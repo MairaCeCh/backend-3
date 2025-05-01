@@ -8,5 +8,6 @@ const router = Router();
 router.get("/mocks/:amount", validateSchema(petsMocksSchema), petController.createPetsMocks);
 router.post("/", petController.create)
 router.get("/:id", petController.getPetById)
-
+router.put("/:id", petController.updatePet)
+router.delete("/:id", petController.deletePet)
 export default router;

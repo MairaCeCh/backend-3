@@ -13,7 +13,9 @@ class UserService{
 
     return users;
   }
-
+async getAll(){
+  return await userDao.getAll();
+}
 
 }
 
