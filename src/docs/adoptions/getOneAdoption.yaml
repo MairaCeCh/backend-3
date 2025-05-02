@@ -1,0 +1,31 @@
+paths:
+  /api/adoptions/getOne:
+    post:
+      summary: Obtener una adopción con un criterio de búsqueda
+      description: Retrieve an adoption based on a query
+      tags:
+        - Adoptions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                owner:
+                  type: string
+                  format: ObjectId
+                  description: ID del dueño (opcional)
+                pet:
+                  type: string
+                  format: ObjectId
+                  description: ID de la mascota (opcional)
+      responses:
+        200:
+          description: Adopción encontrada
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Adoption"
+        404:
+          description: Adopción no encontrada

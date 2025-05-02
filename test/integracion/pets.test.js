@@ -36,10 +36,7 @@ describe("Test de integración módulo Pets", () => {
     };
 
     const { status, body, error } = await request.put(`/api/pets/${petTest._id}`).send(data);
-    // console.log("Status: ", status);
-    // console.log("Body: ", body);
-    // console.log("Error: ", error);
-    // petTest = body;
+   
 
     expect(status).to.be.equal(200);
     expect(body).to.have.property("_id");

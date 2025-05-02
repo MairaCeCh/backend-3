@@ -811,3 +811,95 @@
 2025-05-01 16:04:51 [[32minfo[39m]: Mongo DB Conectado
 2025-05-01 16:04:54 [[32minfo[39m]: Mongo DB Conectado
 2025-05-01 16:04:54 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:05:05 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:05:05 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:05:47 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-05-01 16:05:47 [[34mdebug[39m]: Login service
+2025-05-01 16:05:47 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTNjNWRiYzhiYTFjZmIyMGU4ZjU0MyIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ2MTI2MzQ3LCJleHAiOjE3NDYxMjgxNDd9.AcW296RHvVwBfD7MvHV7mYNYH2XTeizipn5lB6apH4I
+2025-05-01 16:08:03 [[34mdebug[39m]: Login service
+2025-05-01 16:08:03 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTNjNjkzMzg1NTg4ZDE5MWU5MDg1MyIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ2MTI2NDgzLCJleHAiOjE3NDYxMjgyODN9.QrC1dN4c2bSRKdgLATAXh2R0kg5iO2pd1ocf5RU4nYo
+2025-05-01 16:44:24 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:44:24 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:45:23 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:45:23 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:45:44 [[34mdebug[39m]: Login service
+2025-05-01 16:45:44 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTNjZjY4NjU1NWMxMDg2NTgxMDcwYSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ2MTI4NzQ0LCJleHAiOjE3NDYxMzA1NDR9.VAoHMSUGIZHc9Ia24j3e3DtMsWZZBTD5QgDUCktl2Ig
+2025-05-01 16:54:03 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:54:03 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:54:15 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:54:15 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:54:34 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:54:34 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:55:12 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:55:12 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:55:32 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:55:33 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:55:58 [[34mdebug[39m]: Login service
+2025-05-01 16:55:58 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTNkMWNkZWU5ZTU1MDE5NDBjOWZlMiIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ2MTI5MzU4LCJleHAiOjE3NDYxMzExNTh9.sUJXA_V5RffaI5A2YVWN7P0cijr0TSzuHB75hA7sSZQ
+2025-05-01 16:58:05 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:58:05 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 16:59:01 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 16:59:01 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 17:02:38 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:02:38 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 17:02:49 [[34mdebug[39m]: Login service
+2025-05-01 17:02:50 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTNkMzY5MTdmOWVkYTdhMmJkYjI3YyIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ2MTI5NzcwLCJleHAiOjE3NDYxMzE1NzB9.el-Ntm0gpKpE7IPujb_bBElkcMx4m4OsG1BUspRISok
+2025-05-01 17:04:54 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:04:58 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:04:58 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 17:06:09 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:06:09 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 17:14:57 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:14:57 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 17:15:18 [[34mdebug[39m]: {
+  "statusCode": 403,
+  "files": [
+    "Error: El usuario ya existe con ese email",
+    "    at AuthService.registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.service.js:10:24)",
+    "    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    "    at async registerUser (file:///C:/Users/Mayra/Documents/programar/backendMay-3/src/modules/auth/auth.controller.js:7:23)"
+  ],
+  "message": "El usuario ya existe con ese email",
+  "path": "/api/auth/register",
+  "method": "POST"
+}
+2025-05-01 17:15:18 [[34mdebug[39m]: Login service
+2025-05-01 17:15:19 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTNkNjNhOTA1ZWQ0NzIzYjM5YjA5ZSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ2MTMwNTE5LCJleHAiOjE3NDYxMzIzMTl9.0342lwuqO0OnSYy4U1pUC-ACOnmDQCthowO4q8c81bQ
+2025-05-01 17:15:59 [[34mdebug[39m]: Login service
+2025-05-01 17:15:59 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTNkNjdmMWQyYThiYWZhYzAwZjM4OSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ2MTMwNTU5LCJleHAiOjE3NDYxMzIzNTl9.jL8OCzdRsKA5Ip3IUMmuo4i5-qvDNcr-dtZrGHRWvSY
+2025-05-01 17:16:10 [[34mdebug[39m]: Login service
+2025-05-01 17:16:11 [[34mdebug[39m]: Token generado: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4MTNkNjhhMWQyYThiYWZhYzAwZjM5NSIsImVtYWlsIjoianBAZ21haWwuY29tIiwiaWF0IjoxNzQ2MTMwNTcxLCJleHAiOjE3NDYxMzIzNzF9.N4RDzjLwx6uW-Gw9z1dcosDJKORQjIi6DfZeKDo_qwM
+2025-05-01 17:23:15 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:23:15 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 17:28:00 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:28:00 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 17:29:44 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:29:44 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 17:54:46 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:54:46 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 17:58:16 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 17:58:16 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 18:01:57 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 18:01:57 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 18:06:39 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 18:06:43 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 18:06:43 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 18:07:46 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 18:07:46 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-01 18:08:11 [[32minfo[39m]: Mongo DB Conectado
+2025-05-01 18:08:11 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-02 19:47:36 [[32minfo[39m]: Mongo DB Conectado
+2025-05-02 19:47:36 [[32minfo[39m]: Servidor en el puerto 8080
+2025-05-02 19:47:41 [[32minfo[39m]: Mongo DB Conectado
+2025-05-02 19:47:41 [[32minfo[39m]: Servidor en el puerto 8080

@@ -1,0 +1,10 @@
+paths:
+  /api/adoptions/removeAll:
+    delete:
+      summary: Eliminar todas las adopciones
+      description: Delete all adoptions
+      tags:
+        - Adoptions
+      responses:
+        200:
+          description: Todas las adopciones han sido eliminadas exitosamente

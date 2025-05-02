@@ -5,7 +5,7 @@ import router from "./common/router.js"
 import { customError } from "./common/errors/customError.js";
 import { logger } from "./common/utils/logger.js";
 import swaggerUiExpress from "swagger-ui-express";
-import { specs } from "./config/swagger.config.js";
+import {  swaggerOptions } from "./config/swagger.config.js";
 const app = express();
 connectDB();
 app.use(express.json());
@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended: true}));
 app.use("/api", router);
 
 //documentacion
-app.use("/docs", swaggerUiExpress.serve, swaggerUiExpress.setup(specs));
+app.use("/docs", swaggerUiExpress.serve, swaggerUiExpress.setup(swaggerOptions));
 
 app.use(customError)
 

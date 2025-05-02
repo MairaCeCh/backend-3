@@ -1,0 +1,20 @@
+paths:
+  /api/adoptions/{id}:
+    delete:
+      summary: Eliminar una adopción por ID
+      description: Delete an adoption by ID
+      tags:
+        - Adoptions
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            format: ObjectId
+          description: ID de la adopción a eliminar
+      responses:
+        200:
+          description: Adopción eliminada exitosamente
+        404:
+          description: Adopción no encontrada

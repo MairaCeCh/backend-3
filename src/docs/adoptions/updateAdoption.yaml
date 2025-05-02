@@ -1,0 +1,39 @@
+paths:
+  /api/adoptions/{id}:
+    put:
+      summary: Actualizar una adopción por ID
+      description: Update an adoption by ID
+      tags:
+        - Adoptions
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+            format: ObjectId
+          description: ID de la adopción a actualizar
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                owner:
+                  type: string
+                  format: ObjectId
+                  description: Nuevo ID del dueño (opcional)
+                pet:
+                  type: string
+                  format: ObjectId
+                  description: Nuevo ID de la mascota (opcional)
+      responses:
+        200:
+          description: Adopción actualizada con éxito
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Adoption"
+        404:
+          description: Adopción no encontrada
